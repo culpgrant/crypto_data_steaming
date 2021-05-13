@@ -1,0 +1,12 @@
+{
+   "Kafka":{
+      "Server":"localhost:9092",
+      "Topic":"coinrank"
+   },
+  "Coinrank": {
+      "Url": "https://api.coinranking.com/v2"
+  },
+  "Project_Settings": {
+      "Kafka_Delay_Sec": "10"
+  }
+}
