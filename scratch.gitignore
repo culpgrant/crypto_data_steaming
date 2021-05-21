@@ -1,4 +1,2 @@
 # Ignore API Credentials File
 .Kafka_Files/credentials.json
-# Ignore Test file
-.Kafka_Files/kafka_consumer.py
