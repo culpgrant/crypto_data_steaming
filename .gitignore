@@ -1,2 +1,4 @@
 # Ignore API Credentials File
 Kafka_Files/credentials.json
+# Ignore AWS Credentials File
+AWS_DynamoDB/aws_credentials.json

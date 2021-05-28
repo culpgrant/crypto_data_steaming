@@ -27,11 +27,11 @@ def parse_coin_data(coin_data):
                 "symbol_coin": coin_data["symbol"],
                 "uuid": coin_data["uuid"],
                 "number_of_markets": coin_data["numberOfMarkets"],
-                "volume": coin_data["24hVolume"],
-                "market_cap": coin_data["marketCap"],
-                "total_supply": coin_data['supply']["total"],
-                "price": coin_data["price"],
-                "percent_change_24hr": coin_data["change"],
+                "volume": round(float(coin_data["24hVolume"]), 2),
+                "market_cap": round(float(coin_data["marketCap"]), 2),
+                "total_supply": round(float(coin_data['supply']["total"]), 2),
+                "price": round(float(coin_data["price"]), 2),
+                "percent_change_24hr": round(float(coin_data["change"]), 2),
                 "timestamp": current_unix_time()}
     except KeyError as e:
         print(e)
